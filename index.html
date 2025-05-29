@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Validação de Cartão de Crédito</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Validação de Cartão de Crédito</h1>
+    <div class="maquininha">
+        <div class="tela" id="resultado"></div>
+        <form id="formCartao">
+            <label for="numeroCartao">Número do cartão:</label>
+            <input type="text" id="numeroCartao" maxlength="25" autocomplete="off" required>
+            <button type="submit">Validar</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="valida-front.js"></script>
+</body>
+</html>
